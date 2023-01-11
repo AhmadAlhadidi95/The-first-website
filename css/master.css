@@ -1,0 +1,105 @@
+:root {
+  --color1: #FBE331;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.cont {
+  padding: 0 60px;
+}
+@media (max-width: 768px) {
+  .cont {
+    padding: 0 30px;
+  }
+}
+/* End */
+header .cont ul li {
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  header .cont ul {
+    gap: 10px;
+  }
+}
+/* End */
+@media (max-width: 768px) {
+  main .cont {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 768px) {
+  main .cont .left,
+  main .cont .right {
+    width: 100%;
+  }
+}
+main .two .bar ul li {
+  cursor: pointer;
+}
+main .two .bar ul li:hover {
+  background-color: var(--color1);
+}
+main .two .bar ul li {
+  padding: 5px 10px;
+}
+main .two .imgs img {
+  width: 100%;
+}
+main .two .imgs .left,
+main .two .imgs .right {
+  display: grid;
+  grid-template-rows: 320px auto;
+  align-items: stretch;
+  gap: 20px 0;
+}
+main .two .imgs .cen {
+  display: grid;
+  grid-template-rows: 420px auto;
+  align-items: stretch;
+  gap: 20px 0;
+}
+@media (max-width: 768px) {
+  main .two .logos .bigimg {
+    width: 40px;
+  }
+  main .two .logos .medimg {
+    width: 35px;
+  }
+  main .two .logos .smaimg {
+    width: 30px;
+  }
+}
+/* End */
+main .three .boxes .left img,
+main .three .boxes .cen img {
+  width: 100%;
+}
+main .three .boxes .right a:hover {
+  color: var(--color1);
+}
+/* End */
+main .four .boxes .left,
+main .four .boxes .cen img,
+main .four .boxes .right img {
+  width: 100%;
+  min-height: 360px;
+}
+/* End */
+main .five .content ul input[type='text']:hover,
+main .five .content ul input[type='email']:hover,
+main .five .content ul textarea:hover {
+  border: 1px solid var(--color1);
+}
+main .five .social-icons .face:hover {
+  color: #1877f2
+}
+main .five .social-icons .twi:hover {
+  color: #1da1f2;
+}
+main .five .social-icons .you:hover {
+  color: #ff0000;
+}
+/* End */
